@@ -79,11 +79,11 @@ public class Main {
                 System.out.print("Ulangi? (Ya: 1 || Tidak: 0) ");
                 int ulang = input.nextInt();
                 ulangi = ulang == 1;
-                input.close(); 
-                //dipakai jika menggunakan scanner agar 
-                //tidak leak walaupun bisa tidak dipakai 
-                 //di vsc disuruh aja sebenernya... ga pake tetep jalan
+              
             }
         }
-    }
+   input.close(); }
+   //dipakai jika menggunakan scanner agar 
+   //tidak leak walaupun bisa tidak dipakai 
+   //di vsc disuruh aja sebenernya... ga pake tetep jalan  
 }
